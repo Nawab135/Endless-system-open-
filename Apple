@@ -1,0 +1,6 @@
+fruits = ["apple", "banana", "cherry", "date"]
+
+print("My favorite fruits are:")
+for fruit in fruits:
+    # The '.capitalize()' method makes the first letter uppercase
+    print(fruit.capitalize()) 
