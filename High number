@@ -1,0 +1,13 @@
+number = 10
+
+# The PREVIOUS step might have defined the number.
+# This is the NEXT code block:
+
+if number > 5:
+    print("The number is large. Proceed to calculation.")
+    result = number * 2
+else:
+    print("The number is small. Proceed to data input.")
+    result = number + 1
+    
+print(f"The result is: {result}")
