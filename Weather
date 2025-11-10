@@ -1,0 +1,10 @@
+temperature = 25 # Celsius
+
+if temperature > 30:
+    print("It's a hot day!")
+elif temperature > 20: # This check only runs if the first one is False
+    print("It's a pleasant day.")
+else:
+    print("It's a bit chilly.")
+
+# Output: It's a pleasant day.
