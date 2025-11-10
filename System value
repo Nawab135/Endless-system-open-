@@ -1,0 +1,9 @@
+# Assign values to variables
+x = 10
+y = 5
+
+# Perform an operation
+sum_result = x + y
+
+# Print the result
+print(sum_result) # Output: 15
