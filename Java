@@ -1,0 +1,11 @@
+// pages/about.js or app/about/page.js
+
+// This is the NEXT code for defining a page in the Next.js framework
+export default function About() {
+  return (
+    <div>
+      <h1>About Our Project</h1>
+      <p>This application was built using Next.js and React.</p>
+    </div>
+  );
+}
