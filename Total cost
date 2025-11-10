@@ -1,0 +1,11 @@
+# Assign variables
+apples = 5
+price_per_apple = 0.5
+
+# Calculate the total cost
+total_cost = apples * price_per_apple
+
+# Print the result using an f-string (formatted string)
+print(f"Total cost is: ${total_cost:.2f}")
+
+# Output: Total cost is: $2.50
